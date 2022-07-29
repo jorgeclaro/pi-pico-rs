@@ -4,6 +4,14 @@ Program a [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-
 
 ## Get Started
 
+0. Install dependencies
+
+```
+sudo apt update
+sudo apt install pkg-config
+sudo apt install libudev-dev
+```
+
 1. Install the latest version of Rust and the `thumbv6m-none-eabi` target. This is the primary language we use to write programs for the Pico
 
 ```
