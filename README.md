@@ -44,6 +44,11 @@ To flash the program to the Pico:
 1. Plug in the Pico to your host machine in bootloader mode (with the on-board button held down)
 2. Run `just flash`
 
+## Only generate UF2 binary
+
+1. Open `.cargo/config.toml` file
+2. Remove `-d` on runner setting to skip auto-flash and only generate UF2 file
+
 ## Additional Resources
 
 - The [rp-pico](https://github.com/rp-rs/rp-hal/tree/main/boards/rp-pico) crate
